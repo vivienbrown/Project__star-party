@@ -1,0 +1,63 @@
+.body {
+  margin: 0;
+  padding: 0;
+}
+.page {
+  background-color: #000;
+  color: white;
+
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  padding-top: 45px;
+  margin: 0 auto;
+}
+.header__title {
+  display: flex;
+  justify-content: center;
+}
+
+.header__description {
+  display: flex;
+  justify-content: center;
+  max-width: 880px;
+  margin: 0 auto;
+}
+.content {
+  max-width: 880px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.intro {
+}
+.subheading {
+}
+.intro__rules {
+  line-height: 1.5em;
+}
+.intro__rule {
+  padding-bottom: 1em;
+}
+.calendar {
+}
+
+.calendar__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 1em;
+}
+
+.footer {
+}
+.footer__heading {
+}
+.footer__copyright {
+}
+.footer__social-media {
+}
